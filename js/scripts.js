@@ -52,3 +52,9 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+function getAge(){
+    var now = new Date();
+    document.getElementById("auto-age").innerHTML = parseInt(now.getFullYear()) - 1992;
+}
+getAge();
