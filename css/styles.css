@@ -11520,3 +11520,7 @@ html {
   width: 250%;
   max-width: 17rem;
 }
+
+p.mb-4{
+  text-align: justify;
+}
