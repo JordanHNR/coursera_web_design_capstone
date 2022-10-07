@@ -238,7 +238,7 @@ sup {
 }
 
 a {
-  color: #1abc9c;
+  color: #00c8ff;
   text-decoration: underline;
 }
 a:hover {
@@ -604,6 +604,7 @@ progress {
 
 .img-fluid {
   max-width: 100%;
+  /* height: auto; */
   height: auto;
 }
 
@@ -11523,4 +11524,30 @@ html {
 
 p.mb-4{
   text-align: justify;
+}
+
+.aspect-ratio-keep{
+  padding-top:50%;
+  height:0;
+  position:relative;
+}
+
+.miniature{
+  position:absolute;
+  left:0;
+  top:0;
+  right:0;
+  bottom:0;
+}
+
+.miniature{
+  position:absolute;
+  left:0;
+  top:0;
+  right:0;
+  bottom:0;
+}
+
+.miniature-hover{
+  object-fit: fill;
 }
