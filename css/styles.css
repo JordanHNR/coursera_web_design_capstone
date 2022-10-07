@@ -11514,3 +11514,8 @@ html {
 .copyright {
   background-color: #1a252f;
 }
+
+#top-page-divider{
+  width: 250%;
+  max-width: 17rem;
+}
