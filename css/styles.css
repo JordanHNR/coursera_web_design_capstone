@@ -11545,3 +11545,13 @@ html {
 .miniature-hover{
   object-fit: fill;
 }
+
+@media print{
+  button{
+    display: none;
+  }
+
+  .pagebreak{
+    page-break-before: always;
+  }
+}
