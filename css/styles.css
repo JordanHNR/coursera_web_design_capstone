@@ -493,7 +493,6 @@ progress {
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
-  text-align: justify;
 }
 
 .display-1 {
@@ -3034,7 +3033,8 @@ textarea.form-control-lg {
 }
 
 .btn-primary {
-  color: #fff;
+  color: #ffffff;
+  font-weight: bold;
   background-color: #628B42;
   border-color: #628B42;
 }
@@ -11371,18 +11371,17 @@ html {
   margin-top: 1rem;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link {
-  color: #fff;
+  color: #ffffff;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  /* background: #1abc9c; */
-  background: #628b62;
+  background: rgba(193, 241, 105, 0.6);
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
   color: #fff;
+  background: rgba(193, 241, 105, 0.6);
 }
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  /* background: #1abc9c; */
-  background: #628b62;
+  background: rgba(193, 241, 105, 0.6);
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
@@ -11404,13 +11403,11 @@ html {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
-    /* background: #1abc9c; */
-    background: #628b62;
+    background: rgba(193, 241, 105, 0.6);
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
-    /* background: #1abc9c; */
-    background: #628b62;
+    background: rgba(193, 241, 105, 0.6);
   }
 
   #mainNav.navbar-shrink {
@@ -11520,10 +11517,6 @@ html {
 #top-page-divider{
   width: 250%;
   max-width: 17rem;
-}
-
-p.mb-4{
-  text-align: justify;
 }
 
 .aspect-ratio-keep{
